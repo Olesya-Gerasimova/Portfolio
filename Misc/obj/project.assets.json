@@ -68,19 +68,6 @@
             "rid": "win"
           }
         }
-      },
-      "Misc/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "MailKit": "3.1.1"
-        },
-        "compile": {
-          "bin/placeholder/Misc.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Misc.dll": {}
-        }
       }
     }
   },
@@ -231,17 +218,11 @@
         "system.security.cryptography.pkcs.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Misc/1.0.0": {
-      "type": "project",
-      "path": "../Misc/Misc.csproj",
-      "msbuildProject": "../Misc/Misc.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MailKit >= 3.1.1",
-      "Misc >= 1.0.0"
+      "MailKit >= 3.1.1"
     ]
   },
   "packageFolders": {
@@ -251,11 +232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olegs\\source\\Portfolio\\Portfolio\\Portfolio\\Portfolio.csproj",
-      "projectName": "Portfolio",
-      "projectPath": "C:\\Users\\olegs\\source\\Portfolio\\Portfolio\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "C:\\Users\\olegs\\source\\Portfolio\\Portfolio\\Misc\\Misc.csproj",
+      "projectName": "Misc",
+      "projectPath": "C:\\Users\\olegs\\source\\Portfolio\\Portfolio\\Misc\\Misc.csproj",
       "packagesPath": "C:\\Users\\olegs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olegs\\source\\Portfolio\\Portfolio\\Portfolio\\obj\\",
+      "outputPath": "C:\\Users\\olegs\\source\\Portfolio\\Portfolio\\Misc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -275,11 +256,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\olegs\\source\\Portfolio\\Portfolio\\Misc\\Misc.csproj": {
-              "projectPath": "C:\\Users\\olegs\\source\\Portfolio\\Portfolio\\Misc\\Misc.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -308,9 +285,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
